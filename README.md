@@ -52,7 +52,7 @@ The script prints a dictionary mapping knot identifiers (e.g., `3_1`) to estimat
 1. Generate candidate sequences/backbones with `guided_generation.py` for the desired knot type.
 2. (Optional) Run ProteinMPNN inverse folding on promising backbones.
 3. Score the resulting PDBs via `alex_poly.py` to confirm topological fidelity.
-4. Visualize the PDBs in KnotPlot and run dynamical relaxation. See [Molecular_Topology][https://github.com/annasu1225/Molecular_Topology] for instructions and codes for this. 
+4. Visualize the PDBs in KnotPlot and run dynamical relaxation. See my other repo [Molecular_Topology](https://github.com/annasu1225/Molecular_Topology) for instructions and codes for this. 
 
 ### Acknowledgement
 I appreciate the helpful discussions with Prof. Jeffrey Brock, Prof. Mark Gerstein, Prof. Smita Krishnaswamy, Neil Voss, Santanu Antu, and Hiren Madnu.
